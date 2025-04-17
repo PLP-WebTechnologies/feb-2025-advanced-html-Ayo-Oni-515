@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ayodeji Oni" />
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <!-- Ordered list with roman numerals -->
+        <ol style="list-style-type: lower-roman">
+            <li>Banana</li>
+            <li>Orange</li>
+            <li>apple</li>
+        </ol>
+    </section>
+    <br>
+    <section>
+        <!-- External Image from pexels.com -->
+        <img src="https://images.pexels.com/photos/30012258/pexels-photo-30012258/free-photo-of-vivid-sunset-at-quy-nh-n-beach-with-boat-and-bridge.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Pexels Image" />
+    </section>
+    <br>
+    <section>
+        <!-- Table with 5 contacts -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jane Doe</td>
+                    <td>123 Maple St, Lagos</td>
+                    <td>08012345678</td>
+                    <td>jane.doe@example.com</td>
+                </tr>
+                <tr>
+                    <td>John Smith</td>
+                    <td>456 Palm Ave, Abuja</td>
+                    <td>08123456789</td>
+                    <td>johnsmith@mail.com</td>
+                </tr>
+                <tr>
+                    <td>Amaka Uche</td>
+                    <td>78 Banana Rd, Enugu</td>
+                    <td>07098765432</td>
+                    <td>amaka.uche@email.com</td>
+                </tr>
+                <tr>
+                    <td>Tunde Bayo</td>
+                    <td>22 Ocean View, Port Harcourt</td>
+                    <td>09011223344</td>
+                    <td>tunde.bayo@outlook.com</td>
+                </tr>
+                <tr>
+                    <td>Linda Nwosu</td>
+                    <td>5 Ikoyi Crescent, Lagos</td>
+                    <td>08033445566</td>
+                    <td>linda.nwosu@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <br>
+    <section>
+        <!-- Registration Form -->
+        <form action="">
+            <!-- Name Field -->
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="name" required>
+            <br>
+            <!-- Email Field -->
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="email" required>
+            <br>
+            <!-- Date of birth Field -->
+            <label for="date">Date of birth</label>
+            <input type="date" name="date" id="date" required>
+            <br>
+            <!-- Gender Field -->
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <br>
+            <!-- Country Field -->
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="nigeria">Nigeria</option>
+                <option value="kenya">Kenya</option>
+                <option value="ghana">Ghana</option>
+            </select>
+            <br>
+            <!-- Interests Field -->
+            <label>Select your interests:</label><br>
+            <input type="checkbox" id="html" name="interests" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="checkbox" id="css" name="interests" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="checkbox" id="javascript" name="interests" value="JavaScript">
+            <label for="javascript">JavaScript</label><br><br>
+            <br>
+            <!-- Password Field -->
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="password" required>
+            <br>
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+
+</html>
